@@ -1,0 +1,11 @@
+section {
+    position: fixed !important;
+    background-color: #eeeee4;
+}
+
+section:not(.first) {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.8);
+    background-color: #eeeee4;
+}
